@@ -6,7 +6,7 @@
 // Sets default values
 AMyPawn::AMyPawn()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
 	OurCameraSpringArm = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraSpringArm"));
@@ -61,37 +61,40 @@ void AMyPawn::StopPawn()
 void AMyPawn::MoveUp()
 {
 	if (!isMoving) {
-		isMoving = true;
 		keyPressed = 0;
-		GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyPawn::MovePawn, 0.03f, true, 0.0f);
+		StartMove();
 	}
 }
 
 void AMyPawn::MoveRight()
 {
 	if (!isMoving) {
-		isMoving = true;
 		keyPressed = 1;
-		GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyPawn::MovePawn, 0.03f, true, 0.0f);
+		StartMove();
 	}
 }
 
 void AMyPawn::MoveDown()
 {
 	if (!isMoving) {
-		isMoving = true;
 		keyPressed = 2;
-		GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyPawn::MovePawn, 0.03f, true, 0.0f);
+		StartMove();
 	}
 }
 
 void AMyPawn::MoveLeft()
 {
 	if (!isMoving) {
-		isMoving = true;
 		keyPressed = 3;
-		GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyPawn::MovePawn, 0.03f, true, 0.0f);
+		StartMove();
 	}
+}
+
+void AMyPawn::StartMove()
+{
+	willStop = false;
+	isMoving = true;
+	GetWorldTimerManager().SetTimer(MemberTimerHandle, this, &AMyPawn::MovePawn, 0.016f, true, 0.01f);
 }
 
 void AMyPawn::MovePawn()
@@ -101,7 +104,7 @@ void AMyPawn::MovePawn()
 	moveCalls--;
 	if (moveCalls == 0)
 	{
-		moveCalls = 20;
+		moveCalls = initialMoveCalls;
 		if (willStop) {
 			isMoving = false;
 			willStop = false;
@@ -111,12 +114,12 @@ void AMyPawn::MovePawn()
 }
 void AMyPawn::RotateLeft()
 {
-	if(!isMoving)
-	AddActorLocalRotation(FRotator(0, -90, 0));
+	if (!isMoving)
+		AddActorLocalRotation(FRotator(0, -90, 0));
 }
 
 void AMyPawn::RotateRight()
 {
-	if(!isMoving)
-	AddActorLocalRotation(FRotator(0, 90, 0));
+	if (!isMoving)
+		AddActorLocalRotation(FRotator(0, 90, 0));
 }

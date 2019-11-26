@@ -8,7 +8,7 @@
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Pawn.h"
 #include "TimerManager.h"
-#include "MyPawn.generated.h"
+#include "MyPawn.generated.h" //Must be last
 
 
 UCLASS()
@@ -21,10 +21,10 @@ public:
 	AMyPawn();
 	bool isMoving = false;
 	bool willStop = false;
-	int initialMoveCalls = 20;
+	int initialMoveCalls = 30;
 	int moveCalls = initialMoveCalls;
-	int stepSize = 15;
-	FVector Directions[4] = {FVector(1,0,0), FVector(0,1,0), FVector(-1,0,0), FVector(0,-1,0)};
+	int stepSize = 300 / initialMoveCalls;
+	FVector Directions[4] = { FVector(1,0,0), FVector(0,1,0), FVector(-1,0,0), FVector(0,-1,0) };
 	short int keyPressed;
 	FTimerHandle MemberTimerHandle;
 
@@ -32,7 +32,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -52,6 +52,9 @@ public:
 	// Called to start moving character up
 	void MoveLeft();
 
+	// Called to intiate movement in current direction.
+	void StartMove();
+
 	// Called to stop character
 	void StopPawn();
 
@@ -64,9 +67,9 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	protected:
+protected:
 	UPROPERTY(EditAnywhere)
-	USpringArmComponent* OurCameraSpringArm;
+		USpringArmComponent* OurCameraSpringArm;
 	UCameraComponent* OurCamera;
-	
+
 };
