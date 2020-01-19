@@ -4,8 +4,8 @@
 #include "MyPawn.h"
 
 // Sets default values
-AMyPawn::AMyPawn()
-{
+AMyPawn::AMyPawn(): current(10,10)
+	{
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
@@ -17,8 +17,7 @@ AMyPawn::AMyPawn()
 	OurCameraSpringArm->CameraLagSpeed = 3.0f;
 	OurCamera = CreateDefaultSubobject<UCameraComponent>(TEXT("GameCamera"));
 	OurCamera->SetupAttachment(OurCameraSpringArm, USpringArmComponent::SocketName);
-}
-
+	}
 
 // Called when the game starts or when spawned
 void AMyPawn::BeginPlay()
@@ -55,40 +54,85 @@ void AMyPawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AMyPawn::StopPawn()
 {
-	willStop = true;
+	if (isMoving) {
+		willStop = true;
+	}
 }
 
 void AMyPawn::MoveUp()
 {
 	if (!isMoving) {
-		keyPressed = 0;
-		StartMove();
+		if (ValidMovement(0)) {
+			keyPressed = 0;
+			StartMove();
+		}
 	}
 }
 
 void AMyPawn::MoveRight()
 {
 	if (!isMoving) {
-		keyPressed = 1;
-		StartMove();
+		if (ValidMovement(1)) {
+			keyPressed = 1;
+			StartMove();
+		}
 	}
 }
 
 void AMyPawn::MoveDown()
 {
 	if (!isMoving) {
-		keyPressed = 2;
-		StartMove();
+		if (ValidMovement(2)) {
+			keyPressed = 2;
+			StartMove();
+		}
 	}
 }
 
 void AMyPawn::MoveLeft()
 {
 	if (!isMoving) {
-		keyPressed = 3;
-		StartMove();
+		if (ValidMovement(3)) {
+			keyPressed = 3;
+			StartMove();
+		}
 	}
 }
+
+bool AMyPawn::ValidMovement(int directionIndex)
+{
+	int direction = int(round(GetActorRotation().Yaw) / 90 + directionIndex)%4;
+	if(direction ==0)
+	{
+		if (current.validSpot(indexX, indexY + 1)) {
+			indexY++;
+			return true;
+		}
+	}
+	else if (direction == 1)
+	{
+		if (current.validSpot(indexX + 1, indexY)) {
+			indexX++;
+			return true;
+		}
+	}
+	else if (direction == 2)
+	{
+		if (current.validSpot(indexX, indexY - 1)) {
+			indexY--;
+			return true;
+		}
+	}
+	else if (direction == 3)
+	{
+		if (current.validSpot(indexX-1, indexY)) {
+			indexX--;
+			return true;
+		}
+	}
+	return false;
+}
+
 
 void AMyPawn::StartMove()
 {
@@ -110,6 +154,11 @@ void AMyPawn::MovePawn()
 			willStop = false;
 			GetWorldTimerManager().ClearTimer(MemberTimerHandle);
 		}
+		else if (!ValidMovement(keyPressed))
+		{
+			isMoving = false;
+			GetWorldTimerManager().ClearTimer(MemberTimerHandle);
+		}
 	}
 }
 void AMyPawn::RotateLeft()
@@ -123,3 +172,4 @@ void AMyPawn::RotateRight()
 	if (!isMoving)
 		AddActorLocalRotation(FRotator(0, 90, 0));
 }
+

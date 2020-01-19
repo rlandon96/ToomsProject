@@ -7,6 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Pawn.h"
+#include "Grid.h"
 #include "TimerManager.h"
 #include "MyPawn.generated.h" //Must be last
 
@@ -16,9 +17,8 @@ class TOOMS_API AMyPawn : public APawn
 {
 	GENERATED_BODY()
 
-public:
-	// Sets default values for this pawn's properties
-	AMyPawn();
+
+private:
 	bool isMoving = false;
 	bool willStop = false;
 	int initialMoveCalls = 30;
@@ -27,12 +27,15 @@ public:
 	FVector Directions[4] = { FVector(1,0,0), FVector(0,1,0), FVector(-1,0,0), FVector(0,-1,0) };
 	short int keyPressed;
 	FTimerHandle MemberTimerHandle;
-
+	int indexX = 0;
+	int indexY = 0;
+	Grid current;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 public:
+	AMyPawn();
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
@@ -63,6 +66,9 @@ public:
 
 	// Rotate
 	void RotateRight();
+
+	//Check if movement is valid
+	bool ValidMovement(int directionIndex);
 
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
