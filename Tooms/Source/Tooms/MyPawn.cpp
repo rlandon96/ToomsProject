@@ -4,8 +4,9 @@
 #include "MyPawn.h"
 
 // Sets default values
-AMyPawn::AMyPawn(): current(10,10)
+AMyPawn::AMyPawn()
 	{
+	current = ALevelManager::getGrid();
 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 	RootComponent = CreateDefaultSubobject<USceneComponent>(TEXT("RootComponent"));
@@ -101,31 +102,31 @@ void AMyPawn::MoveLeft()
 
 bool AMyPawn::ValidMovement(int directionIndex)
 {
-	int direction = int(round(GetActorRotation().Yaw) / 90 + directionIndex)%4;
+	int direction = int(round(GetActorRotation().Yaw) / 90 + directionIndex + 4)%4;
 	if(direction ==0)
 	{
-		if (current.validSpot(indexX, indexY + 1)) {
+		if ((*current).validSpot(indexX, indexY + 1)) {
 			indexY++;
 			return true;
 		}
 	}
 	else if (direction == 1)
 	{
-		if (current.validSpot(indexX + 1, indexY)) {
+		if ((*current).validSpot(indexX + 1, indexY)) {
 			indexX++;
 			return true;
 		}
 	}
 	else if (direction == 2)
 	{
-		if (current.validSpot(indexX, indexY - 1)) {
+		if ((*current).validSpot(indexX, indexY - 1)) {
 			indexY--;
 			return true;
 		}
 	}
 	else if (direction == 3)
 	{
-		if (current.validSpot(indexX-1, indexY)) {
+		if ((*current).validSpot(indexX-1, indexY)) {
 			indexX--;
 			return true;
 		}

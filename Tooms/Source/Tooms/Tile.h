@@ -10,7 +10,7 @@
 class TOOMS_API Tile
 {
 public:
-	Tile(bool isWall = false, int enemyType = 0);
+	Tile(bool isWall = false, int enemyType = -1);
 	void changeEnemy(int newEnemyType);
 	int getEnemy();
 	bool getIsWall();
