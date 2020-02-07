@@ -2,9 +2,7 @@
 
 #pragma once
 #include "Tile.h"
-#include <vector>
 #include "CoreMinimal.h"
-using namespace std;
 /**
  *
  */
@@ -17,12 +15,13 @@ public:
 	bool validCoordinate(float x, float y);
 	int getLength();
 	int getWidth();
+	void setTile(int x, int y, bool isWall = false, int enemy = -1);
 
 	~Grid();
 
 private:
 	int _length;
 	int _width;
-	vector<vector<Tile>> gridTiles;
+	TArray<TArray<Tile>> gridTiles;
 };
 

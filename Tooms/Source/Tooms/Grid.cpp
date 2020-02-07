@@ -6,12 +6,12 @@ Grid::Grid(int length, int width)
 {
 	_length = length;
 	_width = width;
-	gridTiles.resize(length);
+	TArray<Tile> row;
 	for (int i = 0; i < length; i++) {
-		gridTiles[i].resize(width);
-		for (int j = 0; j < width; j++) {
-			gridTiles[i][j] = Tile();
-		}
+		row.Add(Tile());
+	}
+	for (int j = 0; j < width; j++) {
+		gridTiles.Add(row);
 	}
 }
 
@@ -46,6 +46,9 @@ int Grid::getLength() {
 
 int Grid::getWidth() {
 	return _width;
+}
+void Grid::setTile(int x, int y, bool isWall, int enemy) {
+	gridTiles[x][y] = Tile(isWall, enemy);
 }
 
 Grid::~Grid()

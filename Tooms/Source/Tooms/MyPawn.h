@@ -7,7 +7,7 @@
 #include "GameFramework/SpringArmComponent.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Pawn.h"
-#include "Grid.h"
+#include "LevelManager.h"
 #include "TimerManager.h"
 #include "MyPawn.generated.h" //Must be last
 
@@ -29,7 +29,7 @@ private:
 	FTimerHandle MemberTimerHandle;
 	int indexX = 0;
 	int indexY = 0;
-	Grid current;
+	Grid *current;
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
