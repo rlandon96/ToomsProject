@@ -1,0 +1,961 @@
+﻿Log file open, 02/13/20 14:17:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Grid_Test
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.454339
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.32.0
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU:        Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:113][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:118][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.13-22.17.35:118][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.13-22.17.35:119][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.13-22.17.35:119][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.13-22.17.35:120][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.02.13-22.17.35:182][  0]LogHAL: Display: Platform has ~ 8 GB [8527704064 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2020.02.13-22.17.35:182][  0]LogInit: Going up to parent DeviceProfile []
+[2020.02.13-22.17.35:182][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.02.13-22.17.35:182][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.02.13-22.17.35:182][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.02.13-22.17.35:182][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.02.13-22.17.35:183][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Scalability.ini]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.02.13-22.17.35:184][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.02.13-22.17.35:197][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.02.13-22.17.35:197][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.02.13-22.17.35:197][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Config/Windows/Engine.ini]
+[2020.02.13-22.17.35:197][  0]LogInit: Computer: CODYLARKIN-PC
+[2020.02.13-22.17.35:197][  0]LogInit: User: CodyLarkin
+[2020.02.13-22.17.35:197][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.02.13-22.17.35:197][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.02.13-22.17.35:197][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.02.13-22.17.35:197][  0]LogMemory: Platform Memory Stats for Windows
+[2020.02.13-22.17.35:197][  0]LogMemory: Process Physical Memory: 100.21 MB used, 100.22 MB peak
+[2020.02.13-22.17.35:197][  0]LogMemory: Process Virtual Memory: 103.22 MB used, 103.22 MB peak
+[2020.02.13-22.17.35:197][  0]LogMemory: Physical Memory: 6823.33 MB used,  1309.32 MB free, 8132.65 MB total
+[2020.02.13-22.17.35:197][  0]LogMemory: Virtual Memory: 4656.86 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.02.13-22.17.35:429][  0]LogInit: Using OS detected language (en-US).
+[2020.02.13-22.17.35:429][  0]LogInit: Using OS detected locale (en-US).
+[2020.02.13-22.17.35:430][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.02.13-22.17.36:217][  0]LogInit: Setting process to per monitor DPI aware
+[2020.02.13-22.17.36:353][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.02.13-22.17.36:353][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.02.13-22.17.36:548][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2020.02.13-22.17.36:548][  0]LogD3D11RHI: D3D11 adapters:
+[2020.02.13-22.17.36:626][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2020.02.13-22.17.36:626][  0]LogD3D11RHI:       6052/0/4066 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.02.13-22.17.36:629][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.02.13-22.17.36:629][  0]LogD3D11RHI:       0/0/4066 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.02.13-22.17.36:629][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.02.13-22.17.36:644][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.02.13-22.17.36:644][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2020.02.13-22.17.36:644][  0]LogWindows: EnumDisplayDevices:
+[2020.02.13-22.17.36:645][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2020.02.13-22.17.36:645][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.02.13-22.17.36:645][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.02.13-22.17.36:646][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2020.02.13-22.17.36:646][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.02.13-22.17.36:646][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2020.02.13-22.17.36:646][  0]LogD3D11RHI:   Driver Version: 432.00 (internal:26.21.14.3200, unified:432.00)
+[2020.02.13-22.17.36:646][  0]LogD3D11RHI:      Driver Date: 7-24-2019
+[2020.02.13-22.17.36:646][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2020.02.13-22.17.36:739][  0]LogD3D11RHI: Async texture creation enabled
+[2020.02.13-22.17.36:744][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.13-22.17.36:744][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.13-22.17.36:744][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2020.02.13-22.17.36:753][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.02.13-22.17.37:403][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.02.13-22.17.37:420][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.02.13-22.17.37:438][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.02.13-22.17.37:456][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.02.13-22.17.37:475][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.02.13-22.17.37:493][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.02.13-22.17.37:510][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.02.13-22.17.37:529][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.02.13-22.17.37:537][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.02.13-22.17.37:647][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.02.13-22.17.37:650][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.02.13-22.17.37:707][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.02.13-22.17.37:707][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.02.13-22.17.37:738][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.02.13-22.17.37:738][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.02.13-22.17.37:754][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.02.13-22.17.37:771][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.02.13-22.17.37:788][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.02.13-22.17.37:805][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.02.13-22.17.37:865][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.02.13-22.17.37:865][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.02.13-22.17.37:865][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.02.13-22.17.37:875][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.02.13-22.17.37:935][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Intermediate/Shaders/WorkingDirectory/56992/).
+[2020.02.13-22.17.37:935][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/CodyLarkin/AppData/Local/Temp/UnrealShaderWorkingDir/329D939345287CB693160EB11FBAE503/'.
+[2020.02.13-22.17.37:938][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.02.13-22.17.37:938][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.02.13-22.17.37:938][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.02.13-22.17.38:545][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.02.13-22.17.38:596][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/CodyLarkin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.13-22.17.38:596][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/CodyLarkin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2020.02.13-22.17.38:596][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.02.13-22.17.38:597][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.02.13-22.17.38:597][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.13-22.17.38:597][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.02.13-22.17.38:610][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.02.13-22.17.38:610][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.02.13-22.17.38:610][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.02.13-22.17.38:697][  0]LogDerivedDataCache: Using Local data cache path C:/Users/CodyLarkin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.02.13-22.17.38:697][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.02.13-22.17.38:697][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.02.13-22.17.38:722][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.02.13-22.17.38:724][  0]LogSlate: Using FreeType 2.6.0
+[2020.02.13-22.17.38:724][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.02.13-22.17.38:815][  0]LogAssetRegistry: FAssetRegistry took 0.0365 seconds to start up
+[2020.02.13-22.17.39:230][  0]LogInit: Selected Device Profile: [Windows]
+[2020.02.13-22.17.39:349][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.02.13-22.17.39:349][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.02.13-22.17.39:349][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.02.13-22.17.39:349][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.02.13-22.17.39:349][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.02.13-22.17.39:451][  0]LogNetVersion: Grid_Test 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 1915745847)
+[2020.02.13-22.17.41:133][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.816745 seconds
+[2020.02.13-22.17.41:140][  0]LogUObjectArray: 42206 objects as part of root set at end of initial load.
+[2020.02.13-22.17.41:140][  0]LogUObjectAllocator: 7325256 out of 0 bytes used by permanent object pool.
+[2020.02.13-22.17.41:140][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.02.13-22.17.42:361][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.02.13-22.17.42:375][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.02.13-22.17.42:491][  0]SourceControl: Source control is disabled
+[2020.02.13-22.17.42:491][  0]SourceControl: Source control is disabled
+[2020.02.13-22.17.42:492][  0]SourceControl: Source control is disabled
+[2020.02.13-22.17.42:493][  0]SourceControl: Source control is disabled
+[2020.02.13-22.17.42:601][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.02.13-22.17.42:751][  0]LogOcInput: OculusInput pre-init called
+[2020.02.13-22.17.43:454][  0]LogEngine: Initializing Engine...
+[2020.02.13-22.17.43:455][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2020.02.13-22.17.43:457][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.02.13-22.17.43:699][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.02.13-22.17.43:715][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.02.13-22.17.43:829][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.13-22.17.43:918][  0]LogInit: FAudioDevice initialized.
+[2020.02.13-22.17.43:918][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.02.13-22.17.44:327][  0]LogDerivedDataCache: Saved boot cache 0.41s 71MB C:/Users/CodyLarkin/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2020.02.13-22.17.44:338][  0]LogInit: Texture streaming: Enabled
+[2020.02.13-22.17.44:358][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.02.13-22.17.44:637][  0]LogInit: Transaction tracking system initialized
+[2020.02.13-22.17.44:665][  0]BlueprintLog: New page: Editor Load
+[2020.02.13-22.17.44:758][  0]LocalizationService: Localization service is disabled
+[2020.02.13-22.17.44:876][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2020.02.13-22.17.44:876][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2020.02.13-22.17.44:876][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2020.02.13-22.17.45:320][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Content/' took 0.06s
+[2020.02.13-22.17.45:320][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.02.13-22.17.45:320][  0]LogCook: Display: Mobile HDR setting 1
+[2020.02.13-22.17.45:657][  0]SourceControl: Source control is disabled
+[2020.02.13-22.17.45:657][  0]Cmd: MAP LOAD FILE="../../../../../../Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.13-22.17.45:863][  0]LightingResults: New page: Lighting Build
+[2020.02.13-22.17.45:866][  0]MapCheck: New page: Map Check
+[2020.02.13-22.17.45:866][  0]LightingResults: New page: Lighting Build
+[2020.02.13-22.17.45:889][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2020.02.13-22.17.49:140][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2020.02.13-22.17.49:291][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.13-22.17.49:402][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2020.02.13-22.17.49:403][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.13-22.17.49:403][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.216ms to complete.
+[2020.02.13-22.17.49:403][  0]LogFileHelpers: Loading map 'Minimal_Default' took 3.745
+[2020.02.13-22.17.51:207][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.17.51:222][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.17.51:232][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.17.51:241][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.17.51:411][  0]LogCollectionManager: Loaded 0 collections in 0.010606 seconds
+[2020.02.13-22.17.51:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Saved/Collections/' took 0.01s
+[2020.02.13-22.17.51:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Content/Developers/CodyLarkin/Collections/' took 0.00s
+[2020.02.13-22.17.51:523][  0]LogFileCache: Scanning file cache for directory 'C:/Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Content/Collections/' took 0.00s
+[2020.02.13-22.17.51:523][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.02.13-22.17.51:540][  0]LogContentBrowser: Native class hierarchy populated in 0.0150 seconds. Added 2739 classes and 661 folders.
+[2020.02.13-22.17.51:637][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.13-22.17.51:720][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:816][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:847][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:882][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:919][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:938][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:968][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.51:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:004][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:060][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:067][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:167][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:180][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:203][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:221][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:351][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:391][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:422][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:441][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:523][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:557][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:691][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.52:784][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2020.02.13-22.17.54:190][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.13-22.17.54:230][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2020.02.13-22.17.56:788][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.02.13-22.17.56:888][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.02.13-22.17.57:367][  0]LogSlate: Took 0.015939 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.02.13-22.17.59:547][  0]LogRenderer: Reallocating scene render targets to support 964x612 Format 10 NumSamples 1 (Frame:1).
+[2020.02.13-22.18.00:765][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.02.13-22.18.00:765][  0]LogLoad: (Engine Initialization) Total time: 72.67 seconds
+[2020.02.13-22.18.00:765][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.02.13-22.18.00:882][  0]LogAssetRegistry: Asset discovery search completed in 22.0892 seconds
+[2020.02.13-22.18.00:884][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.02.13-22.18.00:884][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2020.02.13-22.18.01:080][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.02.13-22.18.01:401][  0]LogSlate: Took 0.073943 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.13-22.18.04:767][  2]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.02.13-22.27.51:764][756]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2020.02.13-22.27.53:749][891]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.13-22.27.58:697][363]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.13-22.28.09:783][363]LogAIModule: Creating AISystem for world GridMap
+[2020.02.13-22.28.10:347][363]LogAssetEditorManager: Opening Asset editor for World /Game/GridMap.GridMap
+[2020.02.13-22.28.10:401][363]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2020.02.13-22.28.10:429][363]Cmd: MAP LOAD FILE="../../../../../../Users/CodyLarkin/Documents/Unreal Projects/Grid_Test/Content/GridMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.02.13-22.28.10:429][363]LightingResults: New page: Lighting Build
+[2020.02.13-22.28.10:429][363]LoadErrors: New page: Loading map: GridMap.umap
+[2020.02.13-22.28.10:460][363]MapCheck: New page: Map Check
+[2020.02.13-22.28.10:460][363]LightingResults: New page: Lighting Build
+[2020.02.13-22.28.10:486][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2020.02.13-22.28.10:874][363]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.02.13-22.28.10:917][363]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
+[2020.02.13-22.28.10:971][363]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.02.13-22.28.10:971][363]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.183ms to complete.
+[2020.02.13-22.28.10:972][363]LogFileHelpers: Loading map 'GridMap' took 0.570
+[2020.02.13-22.28.22:304][930]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/PlayerPawn.PlayerPawn
+[2020.02.13-22.28.31:025][930]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2020.02.13-22.28.41:239][930]LogSlate: Took 0.090834 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.02.13-22.28.45:881][931]LogSlate: Took 0.021652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.02.13-22.29.00:776][459]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (49.463 sec). This should never happen. Something is wrong with the timer delegate!
+[2020.02.13-22.30.10:820][399]LogSlate: Took 0.015114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2020.02.13-22.30.17:536][993]BlueprintLog: New page: Compile PlayerPawn
+[2020.02.13-22.30.17:885][993]LogUObjectHash: Compacting FUObjectHashTables data took   4.16ms
+[2020.02.13-22.30.24:158][499]BlueprintLog: New page: Compile PlayerPawn
+[2020.02.13-22.30.24:388][499]LogUObjectHash: Compacting FUObjectHashTables data took   4.05ms
+[2020.02.13-22.30.26:445][659]LogTemp: Repeating last play command: Selected Viewport
+[2020.02.13-22.30.26:523][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/GridMap.GridMap:PersistentLevel' has LevelScriptBlueprint '/Game/GridMap.GridMap:PersistentLevel.GridMap' with GeneratedClass '/Game/GridMap.GridMap_C' with ClassGeneratedBy '/Game/GridMap.GridMap:PersistentLevel.GridMap'
+[2020.02.13-22.30.26:530][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.02.13-22.30.26:553][659]PIE: New page: PIE session: GridMap (Feb 13, 2020, 6:30:26 AM)
+[2020.02.13-22.30.26:640][659]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_GridMap
+[2020.02.13-22.30.26:707][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066308s)
+[2020.02.13-22.30.26:727][659]LogAIModule: Creating AISystem for world GridMap
+[2020.02.13-22.30.26:746][659]LogPlayLevel: PIE: World Init took: (0.038729s)
+[2020.02.13-22.30.26:746][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/GridMap.GridMap to /Game/UEDPIE_0_GridMap.GridMap (0.105555s)
+[2020.02.13-22.30.26:782][659]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2020.02.13-22.30.26:861][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.02.13-22.30.27:038][659]LogInit: FAudioDevice initialized.
+[2020.02.13-22.30.27:107][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.30.27:280][659]LogLoad: Game class is 'GridBased_C'
+[2020.02.13-22.30.27:407][659]LogWorld: Bringing World /Game/UEDPIE_0_GridMap.GridMap up for play (max tick rate 0) at 2020.02.13-14.30.27
+[2020.02.13-22.30.27:597][659]LogWorld: Bringing up level for play took: 0.205663
+[2020.02.13-22.30.27:726][659]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2020.02.13-22.30.27:754][659]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2020.02.13-22.30.27:754][659]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2020.02.13-22.30.27:925][659]PIE: Play in editor start time for /Game/UEDPIE_0_GridMap 0.463
+[2020.02.13-22.30.27:926][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/GridMap.GridMap:PersistentLevel' has LevelScriptBlueprint '/Game/GridMap.GridMap:PersistentLevel.GridMap' with GeneratedClass '/Game/GridMap.GridMap_C' with ClassGeneratedBy '/Game/GridMap.GridMap:PersistentLevel.GridMap'
+[2020.02.13-22.30.28:113][660]LogRenderer: Reallocating scene render targets to support 1272x688 Format 10 NumSamples 1 (Frame:1).
+[2020.02.13-22.30.31:253][838]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:275][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:275][838]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:275][838]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:289][839]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:289][839]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:304][840]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:304][840]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:320][841]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:320][841]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:335][842]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:335][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:350][843]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:350][843]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:365][844]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:365][844]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:381][845]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:381][845]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:396][846]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:396][846]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:411][847]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:411][847]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:426][848]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:426][848]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:441][849]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:441][849]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:634][862]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:634][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:635][862]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:635][862]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:650][863]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:650][863]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:665][864]LogScript: Warning: Accessed None trying to read property NPC
+	PlayerPawn_C /Game/UEDPIE_0_GridMap.GridMap:PersistentLevel.PlayerPawn_C_0
+	Function /Game/PlayerPawn.PlayerPawn_C:ExecuteUbergraph_PlayerPawn:10C9
+[2020.02.13-22.30.31:665][864]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:679][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:695][866]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:709][867]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:724][868]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:739][869]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:754][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:769][871]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:784][872]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:799][873]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:814][874]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:829][875]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:949][883]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:949][883]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:964][884]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:979][885]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.31:994][886]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:009][887]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:024][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:039][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:053][890]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:069][891]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:085][892]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:101][893]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:116][894]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:131][895]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:146][896]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:253][903]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:253][903]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:268][904]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:284][905]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:298][906]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:313][907]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:328][908]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:344][909]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:360][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:375][911]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:391][912]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:407][913]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:421][914]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:437][915]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:453][916]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:500][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:500][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:515][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:532][921]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:549][922]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:564][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:579][924]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:595][925]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:610][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:626][927]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:641][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:656][929]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:672][930]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:687][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:763][936]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:763][936]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:779][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:793][938]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:808][939]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:824][940]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:839][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:853][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:868][943]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:883][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:898][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:912][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:927][947]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:942][948]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.32:957][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:045][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:046][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:060][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:076][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:091][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:106][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:121][960]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:136][961]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:151][962]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:165][963]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:180][964]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:195][965]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:210][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:224][967]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:240][968]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property NPC". Blueprint:  PlayerPawn Function:  Execute Ubergraph Player Pawn Graph:  EventGraph Node:  SetActorLocation
+[2020.02.13-22.30.33:714][999]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/GridMap.GridMap:PersistentLevel' has LevelScriptBlueprint '/Game/GridMap.GridMap:PersistentLevel.GridMap' with GeneratedClass '/Game/GridMap.GridMap_C' with ClassGeneratedBy '/Game/GridMap.GridMap:PersistentLevel.GridMap'
+[2020.02.13-22.30.33:741][999]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.02.13-22.30.33:763][999]LogSlate: Window 'Grid_Test Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2020.02.13-22.30.34:051][999]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.02.13-22.30.34:052][999]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/GridMap.GridMap:PersistentLevel' has LevelScriptBlueprint '/Game/GridMap.GridMap:PersistentLevel.GridMap' with GeneratedClass '/Game/GridMap.GridMap_C' with ClassGeneratedBy '/Game/GridMap.GridMap:PersistentLevel.GridMap'
+[2020.02.13-22.30.34:234][999]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
+[2020.02.13-22.30.34:357][  0]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.02.13-22.30.55:456][211]LogSlate: Window 'Message Log' being destroyed
+[2020.02.13-22.30.55:459][211]LogSlate: Window 'Message Log' being destroyed
+[2020.02.13-22.31.10:560][837]BlueprintLog: New page: Compile PlayerPawn
+[2020.02.13-22.31.10:847][837]LogUObjectHash: Compacting FUObjectHashTables data took   4.69ms
+[2020.02.13-22.31.15:364][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.02.13-22.31.18:180][346]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/AI/Grid_NPC/Grid_NPC_BT.Grid_NPC_BT
+[2020.02.13-22.31.21:916][628]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/AI/Grid_NPC/Grid_Find_Path_Point.Grid_Find_Path_Point
+[2020.02.13-22.33.03:642][487]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.02.13-22.33.12:383][952]LogSlate: Window 'Change Variable Type' being destroyed
+[2020.02.13-22.33.16:669][289]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.02.13-22.33.16:672][289]LogSlate: Window 'Find in Blueprints' being destroyed
+[2020.02.13-22.35.23:344][292]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.13-22.35.23:886][292]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.543 s
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'then' on node 'Set TargetTile' not reciprocally linked with pin 'PlayFromStart' on node 'Add Timeline...'
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: Stack: 
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb47780f85 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671f0eb UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671eb02 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492d5bea UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb49489476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492c26d3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f7c9 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f5c6 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb50919188 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd571ea UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd8743e UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb45d61358 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd21e66 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd88dcd UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd7f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ab55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ad77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.23:886][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5b6d USER32.dll!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5562 USER32.dll!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ae946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66c5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d554c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d55ca UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e316c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ffba3687bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: [Callstack] 0x00007ffba396ced1 ntdll.dll!UnknownFunction []
+[2020.02.13-22.35.23:887][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.23:890][292]LogStats:                SubmitErrorReport -  0.000 s
+[2020.02.13-22.35.33:687][292]LogStats:                    SendNewReport -  9.797 s
+[2020.02.13-22.35.33:687][292]LogStats:             FDebug::EnsureFailed - 10.343 s
+[2020.02.13-22.35.33:687][292]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.13-22.35.33:688][292]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'SetActorLocation' not reciprocally linked with pin 'Update' on node 'Add Timeline...'
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: Stack: 
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb47780f85 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671f0eb UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671eb02 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492d5bea UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb49489476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492c26d3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f7c9 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f5c6 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb50919188 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd571ea UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd8743e UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb45d61358 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd21e66 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd88dcd UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd7f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ab55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ad77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5b6d USER32.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5562 USER32.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ae946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66c5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d554c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d55ca UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e316c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffba3687bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: [Callstack] 0x00007ffba396ced1 ntdll.dll!UnknownFunction []
+[2020.02.13-22.35.33:688][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.33:695][292]LogStats:                SubmitErrorReport -  0.000 s
+[2020.02.13-22.35.34:948][292]LogStats:                    SendNewReport -  1.253 s
+[2020.02.13-22.35.34:948][292]LogStats:             FDebug::EnsureFailed -  1.261 s
+[2020.02.13-22.35.34:948][292]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.13-22.35.34:949][292]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'execute' on node 'Set Temp' not reciprocally linked with pin 'Finished' on node 'Add Timeline...'
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: Stack: 
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb47780f85 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671f0eb UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671eb02 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492d5bea UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb49489476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492c26d3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f7c9 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f5c6 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb50919188 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd571ea UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.34:949][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd8743e UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb45d61358 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd21e66 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd88dcd UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd7f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ab55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ad77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5b6d USER32.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5562 USER32.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ae946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66c5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d554c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d55ca UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e316c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffba3687bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: [Callstack] 0x00007ffba396ced1 ntdll.dll!UnknownFunction []
+[2020.02.13-22.35.34:950][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.34:956][292]LogStats:                SubmitErrorReport -  0.000 s
+[2020.02.13-22.35.35:913][292]LogStats:                    SendNewReport -  0.957 s
+[2020.02.13-22.35.35:913][292]LogStats:             FDebug::EnsureFailed -  0.965 s
+[2020.02.13-22.35.35:913][292]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.02.13-22.35.35:914][292]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.001 s
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: === Handled ensure: ===
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 475]
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: UEdGraphPin::BreakLinkTo Pin 'Alpha' on node 'Lerp (Vector)' not reciprocally linked with pin 'MoveProgress' on node 'Add Timeline...'
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: Stack: 
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb47780f85 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671f0eb UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb4671eb02 UE4Editor-Engine.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492d5bea UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb49489476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb492c26d3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f7c9 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5093f5c6 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb50919188 UE4Editor-Kismet.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd571ea UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd8743e UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb45d61358 UE4Editor-GraphEditor.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd21e66 UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd88dcd UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb5dd7f1ce UE4Editor-Slate.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ab55a UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439ef9f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ad77f UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb7439c090 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5b6d USER32.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffba23e5562 USER32.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffb743ae946 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66c5d3e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d554c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66d55ca UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e316c UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ff7e66e5b8e UE4Editor.exe!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffba3687bd4 KERNEL32.DLL!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: [Callstack] 0x00007ffba396ced1 ntdll.dll!UnknownFunction []
+[2020.02.13-22.35.35:914][292]LogOutputDevice: Error: 
+[2020.02.13-22.35.35:919][292]LogStats:                SubmitErrorReport -  0.000 s
